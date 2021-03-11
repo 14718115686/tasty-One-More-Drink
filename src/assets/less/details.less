@@ -1,0 +1,123 @@
+.details {
+  padding-bottom: 50px;
+  /deep/ .van-nav-bar__text,
+  /deep/ .van-nav-bar__arrow {
+    color: #00a862;
+  }
+
+  /deep/ .van-info {
+    background: #00a862;
+  }
+
+  .det-box {
+    width: 356px;
+    position: relative;
+    top: -15px;
+    left: 9px;
+    border-radius: 10px;
+    background: white;
+  }
+
+  .det-title {
+    display: flex;
+    padding-left: 12px;
+    padding-top: 10px;
+  }
+
+  .det-name {
+    .name-title {
+      padding: 5px 0;
+      font-size: 16px;
+    }
+    .name-title2 {
+      padding-bottom: 10px;
+      color: #333333;
+    }
+  }
+
+  .det-price {
+    margin-left: auto;
+    margin-right: 10px;
+    line-height: 40px;
+    color: #00a862;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  //   选择口味
+
+  .options {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 12px;
+    .option {
+      display: flex;
+      margin-bottom: 12px;
+    }
+    .opt-title {
+      width: 50px;
+      height: 26px;
+      line-height: 26px;
+      font-size: 14px;
+      color: #1e1e1e;
+    }
+
+    .opt-list {
+      display: flex;
+      div {
+        width: 55px;
+        text-align: center;
+        height: 24px;
+        line-height: 24px;
+        background-color: #e8e8e8;
+        border-radius: 13px;
+        color: #666;
+        margin-right: 15px;
+        font-size: 12px;
+        &:last-child {
+          margin-right: 0;
+        }
+        &.active {
+          background-color: #00a862;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  //   数量
+
+  .number {
+    padding: 10px;
+    border-top: 1px solid #00a862;
+    border-bottom: 1px solid #00a862;
+    .num-list {
+      display: flex;
+    }
+    .num {
+      margin-left: auto;
+      /deep/ .van-stepper__minus {
+        font-size: 20px;
+        color: #00a862;
+        border: 2px solid #00a862;
+      }
+      /deep/ .van-stepper__plus {
+        background: #00a862;
+      }
+    }
+  }
+
+  //   商品描述
+  .describe {
+    padding-left: 10px;
+    .des-title {
+      padding: 10px 0;
+      font-size: 16px;
+    }
+    div {
+      font-size: 13px;
+      margin-top: 5px;
+      padding-bottom: 5px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.like {
+  /deep/ .van-nav-bar__text,
+  /deep/ .van-nav-bar__arrow {
+    color: #00a862;
+  }
+
+  .like-list {
+    width: calc(~"100% / 3 - 10px + 10px / 3");
+    // height: 100px;
+    // background: pink;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #00a862;
+    // 每三个
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+
+ 
+}

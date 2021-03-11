@@ -1,0 +1,96 @@
+.menu {
+  /deep/ .van-nav-bar__text,
+  /deep/ .van-nav-bar__arrow {
+    color: #00a862;
+  }
+
+  /deep/ .van-search__content {
+    border-radius: 20px;
+  }
+
+  /deep/ .van-icon-search {
+    color: #00a862;
+  }
+
+  /deep/ .van-search{
+    padding: 10px 0;
+  }
+
+  .menu-one{
+    position: sticky;
+    top: 0;
+  }
+
+  .menu-list {
+    display: flex;
+    padding: 7px 0;
+    background: white;
+    border-top: 1px solid #00a862;
+  }
+  .menu-item {
+    flex: 1;
+    height: 55px;
+    position: relative;
+  }
+
+  .item-one {
+    // 根据内容上下居中
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .icon-one {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 2px;
+  }
+
+  .item-text {
+    font-size: 12px;
+    text-align: center;
+    &.active {
+      color: #00a862;
+    }
+  }
+
+  //
+  .menu-comm {
+    padding: 10px;
+    padding-bottom: 48px;
+  }
+
+  .commit-list {
+    padding: 10px;
+    border-radius: 8px;
+    background: white;
+    margin-bottom: 10px;
+
+  }
+  .list-img {
+    width: 60px;
+    height: 60px;
+    background: pink;
+  }
+
+  .list-text {
+    width: 180px;
+    margin: 0px 10px;
+  }
+
+  .price {
+    width: 50px;
+    line-height: 60px;
+    color: #00a862;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: right;
+  }
+
+  .name {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+}

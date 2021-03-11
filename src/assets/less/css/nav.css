@@ -1,0 +1,25 @@
+.nav {
+  height: 45px;
+  border-bottom: 1px solid #666;
+}
+.nav .logo-box {
+  display: flex;
+}
+.nav .logo-box .text {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.nav .logo-box .logo {
+  width: 22px;
+  height: 22px;
+  margin-left: 6px;
+}
+.nav .logo-box .logo img {
+  width: 100%;
+  display: block;
+  padding-bottom: 5px;
+}
+.nav .right-title {
+  color: #666;
+  letter-spacing: 2px;
+}

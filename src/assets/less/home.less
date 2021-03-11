@@ -1,0 +1,116 @@
+.home {
+  // 头部导航
+  .header {
+    margin-bottom: 8px;
+    .header-title {
+      display: flex;
+      color: #00a862;
+
+      .header-time {
+        margin-right: 10px;
+      }
+      .header-name {
+        width: 70px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #00a862;
+        font-weight: bold;
+        font-size: 15px;
+        letter-spacing: 2px;
+      }
+    }
+    /deep/.van-search {
+      margin: 0;
+      padding: 0;
+    }
+    /deep/ .van-icon-search {
+      color: #00a862;
+    }
+    /deep/ .van-icon-clear {
+      color: #00a862;
+    }
+    .seacher {
+      width: 210px;
+    }
+  }
+  //   轮播图
+  .banner {
+    width: 360px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 7px;
+    padding-bottom: 8px;
+    img {
+      width: 100%;
+      display: block;
+    }
+
+    .my-swipe .van-swipe-item {
+      color: #fff;
+      font-size: 20px;
+      line-height: 150px;
+      text-align: center;
+      // background-color: #39a9ed;
+    }
+    /deep/ .van-swipe__indicators {
+      margin-left: 150px;
+    }
+    .banner-text {
+      height: 50px;
+      font-size: 17px;
+      color: #39866c;
+      position: absolute;
+      top: -50px;
+      left: 20px;
+    }
+  }
+
+  //   热卖推荐
+  .hotRecommend {
+    padding-bottom: 60px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    // 热卖推荐文字
+    .hot-title {
+      height: 42px;
+      width: 358px;
+      margin-left: 8px;
+      background: white;
+      padding-top: 5px;
+    }
+    .hot-text {
+      width: 85px;
+      height: 35px;
+      font-size: 16px;
+      color: white;
+      line-height: 35px;
+      text-align: center;
+      background: #00a862;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    .hot-list {
+      .hot-icon {
+        width: 28px;
+        height: 25px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        font-size: 15px;
+        text-align: center;
+        line-height: 25px;
+        color: white;
+        background: #00a862;
+        position: absolute;
+        left: 18px;
+        top: 10px;
+      }
+    }
+  }
+}

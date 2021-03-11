@@ -1,0 +1,44 @@
+.login .header {
+  padding-top: 80px;
+  margin-left: 20px;
+}
+.login .header .text {
+  font-size: 24px;
+  color: #333333;
+}
+.login .header .ying {
+  font-size: 18px;
+  color: #666666;
+  margin-top: 15px;
+}
+.login .form {
+  padding-top: 60px;
+  margin: 0 5px;
+}
+.login .form .forget {
+  color: #333333;
+  text-align: right;
+  margin: 10px 8px 0;
+}
+.login .form .btn-box {
+  padding-top: 45px;
+  margin: 0 10px;
+}
+.login .form .btn-box .reg {
+  margin-top: 20px;
+}
+.login .form /deep/ .van-cell {
+  border-bottom: 2px solid #f6f7f8;
+}
+.login .form .popups {
+  font-size: 14px;
+}
+.login .form .popups .register-text {
+  padding: 10px;
+  color: #666666;
+  text-align: center;
+}
+.login .form .reg-box {
+  padding-top: 30px;
+  margin: 0 20px;
+}
